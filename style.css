@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+#boat-image {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  width: 40%;
+}
