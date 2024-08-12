@@ -67,3 +67,13 @@ body {
   font-size: 1.3rem;
   color: rgba(0, 0, 0, 0.75);
 }
+
+#form-section {
+  background-color: #ffffffbd;
+}
+
+#form-section>div {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.75);
+}
