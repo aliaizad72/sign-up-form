@@ -53,3 +53,17 @@ body {
   justify-content: center;
   font-size: 5.5rem;
 }
+
+#right-half {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #F8F8F8;
+}
+
+#info {
+  font-weight: 600;
+  padding: 2rem 1.5rem;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.75);
+}
