@@ -59,6 +59,7 @@ body {
   flex-direction: column;
   flex: 1;
   background-color: #F8F8F8;
+  justify-content: center;
 }
 
 #info {
@@ -88,10 +89,12 @@ body {
 
 .form-element>input {
   border: 1px solid #E5E7EB;
+  height: 23px;
+  font-size: 18px;
 }
 
 .form-element>label {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.625);
   margin-bottom: -0.125rem;
@@ -109,10 +112,20 @@ body {
   padding: 0.5rem 0.75rem;
   border-radius: 6px;
   font-family: 'Mukta', sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
  }
 
 input[type='submit']:hover {
   background-color: black;
   color: white;
+}
+
+#log-in {
+  padding: 2rem 10%;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+#log-in>a {
+  color: rgba(0, 0, 0, 0.75);
 }
