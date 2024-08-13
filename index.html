@@ -46,22 +46,21 @@
         <div class="form-subgroup">
           <div class="form-element">
             <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
           </div>
           <div class="form-element">
-            <!-- ADD PATTERNS LATER ! -->
             <label for="phone-num">PHONE NUMBER</label>
-            <input type="text" pattern="" name="phone-num" id="phone-num">
+            <input type="text" pattern="^\d{3}-\d{7,8}$" name="phone-num" id="phone-num" inputmode="numeric" placeholder="012-3456789">
           </div>
         </div>
         <div class="form-subgroup">
           <div class="form-element">
             <label for="password">PASSWORD</label>
-            <input type="text" pattern="" name="password" id="password">
+            <input type="text" pattern="" name="password" id="password" required>
           </div>
           <div class="form-element">
             <label for="confirm_pw">CONFIRM PASSWORD</label>
-            <input type="text" pattern="" name="confirm_pw" id="confirm_pw">
+            <input type="text" pattern="" name="confirm_pw" id="confirm_pw" required>
           </div>
         </div>
       </form>
