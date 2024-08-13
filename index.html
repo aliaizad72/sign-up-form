@@ -36,17 +36,17 @@
         <div class="form-subgroup">
           <div class="form-element">
             <label for="fname">FIRST NAME</label>
-            <input type="text" name="fname" id="fname">
+            <input type="text" name="fname" id="fname" placeholder="Abu">
           </div>
           <div class="form-element">
             <label for="lname">LAST NAME</label>
-            <input type="text" name="lname" id="lname">
+            <input type="text" name="lname" id="lname" placeholder="Bakar">
           </div>
         </div>
         <div class="form-subgroup">
           <div class="form-element">
             <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email" required>
+            <input type="email" name="email" id="email">
           </div>
           <div class="form-element">
             <label for="phone-num">PHONE NUMBER</label>
@@ -55,12 +55,13 @@
         </div>
         <div class="form-subgroup">
           <div class="form-element">
-            <label for="password">PASSWORD</label>
-            <input type="text" pattern="" name="password" id="password" required>
+            <label for="password">PASSWORD*</label>
+            <input type="password" name="password" id="password" placeholder="8 characters" pattern="^.{8,}$" maxlength="8" required>
+            <div id="pw_alert">*Password do not match</div>
           </div>
           <div class="form-element">
-            <label for="confirm_pw">CONFIRM PASSWORD</label>
-            <input type="text" pattern="" name="confirm_pw" id="confirm_pw" required>
+            <label for="confirm_pw">CONFIRM PASSWORD*</label>
+            <input type="password" name="confirm_pw" id="confirm_pw" pattern="^.{8,}$" maxlength="8" required>
           </div>
         </div>
       </form>

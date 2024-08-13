@@ -91,6 +91,7 @@ body {
   border: 1px solid #E5E7EB;
   height: 23px;
   font-size: 18px;
+  outline: none;
 }
 
 .form-element>label {
@@ -128,4 +129,22 @@ input[type='submit']:hover {
 
 #log-in>a {
   color: rgba(0, 0, 0, 0.75);
+}
+
+.form-element>input:focus {
+  background-color: #F8F8F8;
+  border-color: black;
+}
+
+.form-element>input:invalid{
+  border-color: red;
+}
+
+.form-element>input:valid:focus {
+  border-color: green;
+}
+
+#pw_alert {
+  font-size: 0.85rem;
+  color: red;
 }
